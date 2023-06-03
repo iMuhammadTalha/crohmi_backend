@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc58a5b5-a2d6-4682-a4bf-fbe97661ff3a" name="Default Changelist" comment="Postgres data converted to volume">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crohmi/ndvi_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crohmi/ndvi_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crohmi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crohmi/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="f58857f3-06bd-4caa-8704-39f2ec2c1755" />
+  <component name="ProjectId" id="1P2ouLdYL7TECFSaBhezGFddCix" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diaga\PycharmProjects\GSM\GSM_Django" />
+      <recent name="C:\Users\Diaga\PycharmProjects\Django API Template\django-api-template\app\core\tests" />
+      <recent name="C:\Users\Diaga\PycharmProjects\Django API Template\django-api-template\app\core\management\commands" />
+      <recent name="C:\Users\Diaga\PycharmProjects\Django API Template\django-api-template" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GSM_Lab" type="Python.DjangoServer" factoryName="Django server">
+      <module name="django-api-template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Diaga\PycharmProjects\GSM\GSM_Django\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc58a5b5-a2d6-4682-a4bf-fbe97661ff3a" name="Default Changelist" comment="" />
+      <created>1564220199544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564220199544</updated>
+      <workItem from="1564220201273" duration="3099000" />
+      <workItem from="1564415887732" duration="274000" />
+      <workItem from="1564489713003" duration="376000" />
+      <workItem from="1565081799837" duration="384000" />
+      <workItem from="1565274871086" duration="8410000" />
+      <workItem from="1583086977244" duration="3831000" />
+      <workItem from="1583130904338" duration="14843000" />
+      <workItem from="1583235056884" duration="1238000" />
+      <workItem from="1583426344394" duration="5864000" />
+      <workItem from="1583532402513" duration="1792000" />
+      <workItem from="1584019888017" duration="1239000" />
+      <workItem from="1584364063745" duration="597000" />
+      <workItem from="1584898713353" duration="16676000" />
+      <workItem from="1587001254329" duration="640000" />
+      <workItem from="1587166488313" duration="561000" />
+      <workItem from="1587172768608" duration="6199000" />
+      <workItem from="1587198788669" duration="2186000" />
+      <workItem from="1587235457593" duration="1075000" />
+      <workItem from="1587274341587" duration="8620000" />
+      <workItem from="1587300555532" duration="39000" />
+      <workItem from="1587526477245" duration="2130000" />
+      <workItem from="1587686903521" duration="389000" />
+      <workItem from="1590324878070" duration="11100000" />
+      <workItem from="1590403457800" duration="4371000" />
+      <workItem from="1590419978239" duration="9406000" />
+      <workItem from="1590498567414" duration="6538000" />
+      <workItem from="1590519876869" duration="1513000" />
+      <workItem from="1590521574279" duration="7082000" />
+      <workItem from="1590842979495" duration="615000" />
+      <workItem from="1590845268309" duration="5898000" />
+      <workItem from="1590927697235" duration="3047000" />
+      <workItem from="1591125585764" duration="1966000" />
+      <workItem from="1591563980015" duration="3620000" />
+      <workItem from="1604069454125" duration="891000" />
+      <workItem from="1615404980390" duration="11253000" />
+      <workItem from="1615708161586" duration="1877000" />
+      <workItem from="1615732664438" duration="744000" />
+      <workItem from="1616315698107" duration="661000" />
+      <workItem from="1616708033235" duration="1571000" />
+    </task>
+    <task id="LOCAL-00001" summary="Nginx update">
+      <created>1587282221939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587282221939</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changed nginx image">
+      <created>1587282311889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587282311889</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changed nginx image">
+      <created>1587282451874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587282451874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed nginx image">
+      <created>1587282768672</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587282768672</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed nginx image">
+      <created>1587283036048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587283036048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changed nginx image">
+      <created>1587283391505</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587283391505</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed nginx image">
+      <created>1587283922009</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587283922009</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed nginx image">
+      <created>1587284052121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587284052121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed nginx image">
+      <created>1587284480567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587284480567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed nginx image">
+      <created>1587284652178</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587284652178</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added SSL Header">
+      <created>1587285021065</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587285021065</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Postgres data converted to volume">
+      <created>1587285315868</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587285315868</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nginx update" />
+    <MESSAGE value="Changed nginx image" />
+    <MESSAGE value="Added SSL Header" />
+    <MESSAGE value="Postgres data converted to volume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Postgres data converted to volume" />
+  </component>
+</project>

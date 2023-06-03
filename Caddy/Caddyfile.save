@@ -1,0 +1,39 @@
+api.crohmi.ml:443 {
+    reverse_proxy app:8000
+
+    header Access-Control-Allow-Origin *
+
+    tls {
+        on_demand
+    }
+}
+
+api.crohmi.seecs.nust.edu.pk:443 {
+    reverse_proxy app:8000
+
+    header Access-Control-Allow-Origin *
+
+    tls {
+        on_demand
+    }
+}
+
+www.crohmi.ml:443 {
+    reverse_proxy http://web
+
+    header Access-Control-Allow-Origin *
+
+    tls {
+        on_demand
+    }
+}
+
+crohmi.ml:443 {
+    reverse_proxy http://web
+
+    header Access-Control-Allow-Origin *
+
+    tls {
+        on_demand
+    }
+}

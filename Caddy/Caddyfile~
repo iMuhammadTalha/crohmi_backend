@@ -1,0 +1,33 @@
+cors
+
+api.crohmi.ml:443 {
+    reverse_proxy http://app:8003
+
+    tls {
+        on_demand
+    }
+}
+
+api.crohmi.seecs.nust.edu.pk:443 {
+    reverse_proxy http://app:8003
+
+    tls {
+        on_demand
+    }
+}
+
+www.crohmi.ml:443 {
+    reverse_proxy http://web
+
+    tls {
+        on_demand
+    }
+}
+
+crohmi.ml:443 {
+    reverse_proxy http://web
+
+    tls {
+        on_demand
+    }
+}

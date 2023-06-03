@@ -1,0 +1,59 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
+      - static_volume:/app/static
+      - media_volume:/app/media
+    command: >
+      sh -c "python manage.py wait_for_db &&
+             python manage.py migrate &&
+             python manage.py collectstatic --no-input &&
+             python manage.py runserver 0.0.0.0:8000"
+    networks:
+      - link
+      - backend
+    environment:
+      - DB_HOST=db
+      - DB_NAME=postgres
+      - DB_USER=postgres
+      - DB_PASS=somethingsecretpassword
+      - DB_PORT=5432
+      - DJANGO_SETTINGS_MODULE=app.production.settings
+    depends_on:
+      - db
+
+  db:
+    image: postgres:12-alpine
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=somethingsecretpassword
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  caddy:
+    build: ./Caddy
+    networks:
+      - link
+    ports:
+      - "443:443"
+    restart: always
+
+volumes:
+  static_volume:
+  postgres_data:
+  media_volume:
+
+networks:
+  link:
+  backend:
